@@ -1,3 +1,6 @@
+#skip the settings file with connection string
+settings.js
+
 # Logs
 logs
 *.log
