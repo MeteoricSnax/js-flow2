@@ -66,7 +66,36 @@ and repeat this with all applications.
   Using JavaScript we can programmatically start our express server using the listen method.
   We can then use the node-fetch to make requests to the REST API.
   
+## Explain, using relevant examples, the Express concept; middleware.
+
   
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
