@@ -68,12 +68,21 @@ and repeat this with all applications.
   
 ## Explain, using relevant examples, the Express concept; middleware.
 
+  In express, middleware is a simply a function that is called before the incoming request is dispatched to a route. The middleware can be specific to a HTTP method or an application path. Note that multiple middleware functions can be provided at the same time.
   
-  
-  
-  
+  ```
+  const express = require('express')
 
+  const a = require('middleware-first')
+  const b = require('middleware-second')
+  const c = require('middleware-third')
 
+  app.use(a)
+  app.use('/api', b, c)
+  app.get('/path', c)  
+  ```
+  middleware makes code more reusable as you can use it on all of the routes you are gonna make.
+  there is a ton of possibilities with middleware.
 
 
 
